@@ -1,0 +1,154 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+  
+body {
+    background-color: #000;
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;    
+    background-color: #111;  
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: #111;  
+}
+
+header > a {
+    font-size: 35px;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+header>a:hover {
+    background-color: #222;
+    border: 1px solid #333;
+    transition: .5s;
+}
+
+footer>p {
+    margin: 15px;
+    color: #fff;
+}
+
+#content {  
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    background-color: #222;
+    color: #fff;  
+}
+
+#colors {
+    background-color: #000;
+}
+
+#colors > ul {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr; 
+    list-style: none;  
+}
+
+#colors > ul > li {
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+}
+
+.color {
+    cursor: pointer;
+    border: 1px solid white !important;  
+}
+
+.color-0 {
+    background-color: white;
+}
+
+.color-1 {
+    background-color: black; 
+}
+
+.color-2 {
+    background-color: yellow;
+}
+
+.color-3 {
+    background-color: red;
+}
+
+.color-4 {
+    background-color: green;
+}
+
+.color-5 {
+    background-color: blue;
+}
+
+.color-6 {
+    background-color: pink;
+}
+
+.color-7 {
+    background-color: purple;
+}
+
+.color-8 {
+    background-color: tomato;
+}
+
+.color-9 {
+    background-color: cyan;
+}
+
+.color-A {
+    background-color: grey;
+}
+
+.color-B {
+    background-color: orange;
+}
+
+.color-C {
+    background-color: lime;
+}
+
+.color-D {
+    background-color: magenta;
+}
+
+.color-E {
+    background-color: brown;
+}
+
+.color-F {
+    background-color: #333;
+}
+
+#canvas {
+    display: grid;
+    grid-template-columns: repeat(10, 25px);
+    grid-template-rows: repeat(10, 25px);
+    padding: 25px;     
+}
+
+.pixel {    
+    border: 1px solid white !important;
+    cursor: pointer;
+}
+
+#color {
+    border: 1px solid white;
+    height: 30px;
+    margin: 15px;
+}
